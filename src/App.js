@@ -1,9 +1,12 @@
 import "./App.css";
-import Light from "./components/Light";
+import { Header } from "./components/Header";
+import News from "./components/News";
+
 function App() {
   return (
-    <div>
-      <Light />
+    <div className="App">
+      <Header />
+      <News />
     </div>
   );
 }
